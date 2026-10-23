@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on CX 的博客</title><link>https://blog.imcaoxuan.cn/posts/</link><description>Recent content in Posts on CX 的博客</description><generator>Hugo</generator><language>zh-CN</language><copyright>imcaoxuan.cn</copyright><lastBuildDate>Fri, 23 Oct 2026 16:30:00 +0800</lastBuildDate><atom:link href="https://blog.imcaoxuan.cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 使用指南</title><link>https://blog.imcaoxuan.cn/posts/hugo-manual/</link><pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/hugo-manual/</guid><description>Hugo v0.168.0 的安装、写作、主题、多语言、Git 子模块、构建与 Gitea Actions 实践。</description></item><item><title>排查旁路由 DNS 超时：sing-box 上游查询走错网络接口</title><link>https://blog.imcaoxuan.cn/posts/armbian-dns-wireguard/</link><pubDate>Fri, 23 Oct 2026 16:30:00 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/armbian-dns-wireguard/</guid><description>下游 DNS 请求到达 sing-box，但转发上游时绕过 WireGuard；用定向抓包定位并通过 bind_interface 修复。</description></item><item><title>Armbian 上 sing-box 开启 auto_redirect 后 IPv6 HTTPS 超时：一次回环地址缺失的排查</title><link>https://blog.imcaoxuan.cn/posts/armbian-singbox-ipv6/</link><pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/armbian-singbox-ipv6/</guid><description>IPv6 ping 正常，HTTPS 却在 sing-box auto_redirect 模式下超时。通过 nftables、tcpdump 和 IPv6 回环地址检查定位问题。</description></item><item><title>使用 CrowdSec 为 Debian 服务器实现恶意 IP 自动封禁</title><link>https://blog.imcaoxuan.cn/posts/crowdsec-practice/</link><pubDate>Mon, 19 Oct 2026 19:00:00 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/crowdsec-practice/</guid><description>在 Debian 12 上部署 CrowdSec，结合 SSH、Caddy、Nginx 日志检测恶意请求，并通过 nftables 自动封禁攻击 IP。</description></item><item><title>中国秸秆禁烧政策的历史：从传统农耕到现代环境治理</title><link>https://blog.imcaoxuan.cn/posts/china-straw-burning-ban-history-1/</link><pubDate>Sat, 17 Oct 2026 17:47:18 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/china-straw-burning-ban-history-1/</guid><description>&lt;p&gt;中国秸秆禁烧政策的历史，实际上是中国农业现代化、农村能源转型、环境治理和基层行政管理方式演变的一个缩影。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on CX 的博客</title><link>https://blog.imcaoxuan.cn/posts/</link><description>Recent content in Posts on CX 的博客</description><generator>Hugo</generator><language>zh-CN</language><copyright>imcaoxuan.cn</copyright><lastBuildDate>Fri, 23 Oct 2026 16:30:00 +0800</lastBuildDate><atom:link href="https://blog.imcaoxuan.cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 使用指南</title><link>https://blog.imcaoxuan.cn/posts/2026-10-17-hugo-usage-guide/</link><pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2026-10-17-hugo-usage-guide/</guid><description>Hugo v0.168.0 的安装、写作、主题、多语言、Git 子模块、构建与 Gitea Actions 实践。</description></item><item><title>排查旁路由 DNS 超时：sing-box 上游查询走错网络接口</title><link>https://blog.imcaoxuan.cn/posts/2026-10-23-troubleshooting-dns-timeouts-on-a-bypass-router-sing-box-upstream-queries-leave-through-the-wrong-network-interface/</link><pubDate>Fri, 23 Oct 2026 16:30:00 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/2026-10-23-troubleshooting-dns-timeouts-on-a-bypass-router-sing-box-upstream-queries-leave-through-the-wrong-network-interface/</guid><description>下游 DNS 请求到达 sing-box，但转发上游时绕过 WireGuard；用定向抓包定位并通过 bind_interface 修复。</description></item><item><title>Armbian 上 sing-box 开启 auto_redirect 后 IPv6 HTTPS 超时：一次回环地址缺失的排查</title><link>https://blog.imcaoxuan.cn/posts/2026-10-23-ipv6-https-timeouts-after-enabling-sing-box-auto-redirect-on-armbian-troubleshooting-a-missing-loopback-address/</link><pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2026-10-23-ipv6-https-timeouts-after-enabling-sing-box-auto-redirect-on-armbian-troubleshooting-a-missing-loopback-address/</guid><description>IPv6 ping 正常，HTTPS 却在 sing-box auto_redirect 模式下超时。通过 nftables、tcpdump 和 IPv6 回环地址检查定位问题。</description></item><item><title>UFW 与 sing-box TUN auto_redirect 冲突：动态端口被拦截的排查</title><link>https://blog.imcaoxuan.cn/posts/2026-10-23-troubleshooting-ufw-and-sing-box-tun-auto-redirect-conflicts/</link><pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2026-10-23-troubleshooting-ufw-and-sing-box-tun-auto-redirect-conflicts/</guid><description>通过 UFW 日志、nftables redirect 和 conntrack DNAT 状态，排查 Linux 旁路由透明代理动态端口被阻止的问题。</description></item><item><title>使用 CrowdSec 为 Debian 服务器实现恶意 IP 自动封禁</title><link>https://blog.imcaoxuan.cn/posts/2026-10-19-automatically-banning-malicious-ips-on-a-debian-server-with-crowdsec/</link><pubDate>Mon, 19 Oct 2026 19:00:00 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/2026-10-19-automatically-banning-malicious-ips-on-a-debian-server-with-crowdsec/</guid><description>在 Debian 12 上部署 CrowdSec，结合 SSH、Caddy、Nginx 日志检测恶意请求，并通过 nftables 自动封禁攻击 IP。</description></item><item><title>中国秸秆禁烧政策的历史：从传统农耕到现代环境治理</title><link>https://blog.imcaoxuan.cn/posts/2026-10-17-the-history-of-china-s-straw-burning-ban-policy-from-traditional-farming-to-modern-environmental-governance/</link><pubDate>Sat, 17 Oct 2026 17:47:18 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/2026-10-17-the-history-of-china-s-straw-burning-ban-policy-from-traditional-farming-to-modern-environmental-governance/</guid><description>&lt;p&gt;中国秸秆禁烧政策的历史，实际上是中国农业现代化、农村能源转型、环境治理和基层行政管理方式演变的一个缩影。&lt;/p&gt;
 &lt;p&gt;最关键的历史结论是：中国并非自古存在大规模秸秆焚烧问题，也不是近年来才开始禁止烧秸秆。现代秸秆禁烧制度在20世纪90年代逐步建立，1999年形成全国性的管理规定，2008年前后明显强化，2013年以后进一步纳入大气污染防治体系。&lt;/p&gt;
 &lt;p&gt;更值得研究的，是政策治理目标与执行方式之间的变化：&lt;/p&gt;
 &lt;ul&gt;
@@ -68,7 +68,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;这并不意味着过去不存在焚烧。农民同样会焚烧残茬、杂草，或通过草木灰补充部分矿质养分。&lt;/p&gt;</description></item><item><title>一把火，三十年：中国秸秆禁烧为何从重点管控走向全域禁烧？（二）</title><link>https://blog.imcaoxuan.cn/posts/straw-burning-ban-history-part-2/</link><pubDate>Sat, 17 Oct 2026 12:00:00 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/straw-burning-ban-history-part-2/</guid><description>深度回顾2008—2015年中国秸秆禁烧政策的关键转折：奥运空气质量保障、江苏全域禁烧、安徽财政奖补考核、湖北立法与卫星火点监测。</description></item><item><title>My First Post</title><link>https://blog.imcaoxuan.cn/posts/my-first-post/</link><pubDate>Sat, 22 Mar 2025 20:00:42 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/my-first-post/</guid><description/></item><item><title>Azure入门指南（一）</title><link>https://blog.imcaoxuan.cn/posts/81/</link><pubDate>Sun, 18 Jun 2023 12:25:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/81/</guid><description>&lt;!--markdown--&gt;&lt;mark&gt;阅读前提：了解国内外云服务（如阿里云、Amazon Web Services），并有一定的使用经验&lt;/mark&gt;
+&lt;p&gt;这并不意味着过去不存在焚烧。农民同样会焚烧残茬、杂草，或通过草木灰补充部分矿质养分。&lt;/p&gt;</description></item><item><title>一把火，三十年：中国秸秆禁烧为何从重点管控走向全域禁烧？（二）</title><link>https://blog.imcaoxuan.cn/posts/straw-burning-ban-history-part-2/</link><pubDate>Sat, 17 Oct 2026 12:00:00 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/straw-burning-ban-history-part-2/</guid><description>深度回顾2008—2015年中国秸秆禁烧政策的关键转折：奥运空气质量保障、江苏全域禁烧、安徽财政奖补考核、湖北立法与卫星火点监测。</description></item><item><title>My First Post</title><link>https://blog.imcaoxuan.cn/posts/2025-03-22-my-first-post/</link><pubDate>Sat, 22 Mar 2025 20:00:42 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/2025-03-22-my-first-post/</guid><description/></item><item><title>Azure入门指南（一）</title><link>https://blog.imcaoxuan.cn/posts/2023-06-18-getting-started-with-azure-part-1/</link><pubDate>Sun, 18 Jun 2023 12:25:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2023-06-18-getting-started-with-azure-part-1/</guid><description>&lt;!--markdown--&gt;&lt;mark&gt;阅读前提：了解国内外云服务（如阿里云、Amazon Web Services），并有一定的使用经验&lt;/mark&gt;
 &lt;h2 id="注册"&gt;注册&lt;/h2&gt;
 &lt;p&gt;注册一个微软账户即可，具体步骤可以参考知乎的这篇文章（&lt;a href="https://zhuanlan.zhihu.com/p/157632464"&gt;如何白嫖微软Azure12个月及避坑指南 - 知乎 (zhihu.com)&lt;/a&gt;），&lt;/p&gt;
 &lt;blockquote&gt;
@@ -159,7 +159,117 @@
 &lt;h3 id="虚拟机"&gt;虚拟机&lt;/h3&gt;
 &lt;h4 id="创建"&gt;创建&lt;/h4&gt;
 &lt;h5 id="基本"&gt;基本&lt;/h5&gt;
-&lt;p&gt;&lt;img alt="createvm1png" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2023/06/340238780.png"&gt;&lt;/p&gt;</description></item><item><title>Debian-Ubuntu使用Nexus的私有镜像源</title><link>https://blog.imcaoxuan.cn/posts/80/</link><pubDate>Thu, 27 Oct 2022 15:24:18 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/80/</guid><description>&lt;!--markdown--&gt;# Debian/Ubuntu使用Nexus的私有镜像源
+&lt;p&gt;&lt;img alt="createvm1png" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2023/06/340238780.png"&gt;&lt;/p&gt;</description></item><item><title>ChatGPT接入微信</title><link>https://blog.imcaoxuan.cn/posts/2023-02-08-integrate-chatgpt-with-wechat/</link><pubDate>Wed, 08 Feb 2023 22:36:08 +0800</pubDate><guid>https://blog.imcaoxuan.cn/posts/2023-02-08-integrate-chatgpt-with-wechat/</guid><description>&lt;!--markdown--&gt;
+&lt;p&gt;&lt;a href="https://blog-images.imcaoxuan.cn/2026/10/23/1792748921.pdf"&gt;下载或打开 PDF&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="chatgpt接入微信"&gt;ChatGPT接入微信&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;from&lt;/span&gt; flask &lt;span style="color:#f92672"&gt;import&lt;/span&gt; Flask, request, make_response
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; requests
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; hashlib
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; xml.etree.cElementTree &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; ET
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; time
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# from WXBizMsgCrypt import WXBizMsgCrypt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; base64
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; redis
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;app &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Flask(__name__)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 见下图&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;headers&lt;span style="color:#f92672"&gt;=&lt;/span&gt;{&lt;span style="color:#e6db74"&gt;&amp;#39;Authorization&amp;#39;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;Bearer **-********************&amp;#39;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;appid &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;***********&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;token &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;*******************&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;encodingAESKey &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;************************&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;r &lt;span style="color:#f92672"&gt;=&lt;/span&gt; redis&lt;span style="color:#f92672"&gt;.&lt;/span&gt;Redis()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;@app.get&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;/completions&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;sig&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; args &lt;span style="color:#f92672"&gt;=&lt;/span&gt; request&lt;span style="color:#f92672"&gt;.&lt;/span&gt;args
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(args)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; signature &lt;span style="color:#f92672"&gt;=&lt;/span&gt; args[&lt;span style="color:#e6db74"&gt;&amp;#39;signature&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; echostr &lt;span style="color:#f92672"&gt;=&lt;/span&gt; args[&lt;span style="color:#e6db74"&gt;&amp;#39;echostr&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; timestamp &lt;span style="color:#f92672"&gt;=&lt;/span&gt; args[&lt;span style="color:#e6db74"&gt;&amp;#39;timestamp&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; nonce &lt;span style="color:#f92672"&gt;=&lt;/span&gt; args[&lt;span style="color:#e6db74"&gt;&amp;#39;nonce&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; arr &lt;span style="color:#f92672"&gt;=&lt;/span&gt; [token, timestamp, nonce]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; arr&lt;span style="color:#f92672"&gt;.&lt;/span&gt;sort()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; s &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span style="color:#f92672"&gt;.&lt;/span&gt;join(arr)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; sha1 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; hashlib&lt;span style="color:#f92672"&gt;.&lt;/span&gt;sha1(s&lt;span style="color:#f92672"&gt;.&lt;/span&gt;encode(&lt;span style="color:#e6db74"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;))&lt;span style="color:#f92672"&gt;.&lt;/span&gt;hexdigest()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; sha1 &lt;span style="color:#f92672"&gt;==&lt;/span&gt; signature:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; echostr, &lt;span style="color:#ae81ff"&gt;200&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;error&amp;#39;&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;500&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;@app.post&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;/completions&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;completions&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; t0 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; time&lt;span style="color:#f92672"&gt;.&lt;/span&gt;time()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; xmlStr &lt;span style="color:#f92672"&gt;=&lt;/span&gt; request&lt;span style="color:#f92672"&gt;.&lt;/span&gt;stream&lt;span style="color:#f92672"&gt;.&lt;/span&gt;read()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;xmlStr = &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;xmlStr&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; xmlData &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;try&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; xmlData &lt;span style="color:#f92672"&gt;=&lt;/span&gt; ET&lt;span style="color:#f92672"&gt;.&lt;/span&gt;fromstring(xmlStr)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;except&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Exception&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;200&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; msg_type &lt;span style="color:#f92672"&gt;=&lt;/span&gt; xmlData&lt;span style="color:#f92672"&gt;.&lt;/span&gt;find(&lt;span style="color:#e6db74"&gt;&amp;#39;MsgType&amp;#39;&lt;/span&gt;)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;text
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; msg_type &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;text&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ToUserName &lt;span style="color:#f92672"&gt;=&lt;/span&gt; xmlData&lt;span style="color:#f92672"&gt;.&lt;/span&gt;find(&lt;span style="color:#e6db74"&gt;&amp;#39;ToUserName&amp;#39;&lt;/span&gt;)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;text
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; FromUserName &lt;span style="color:#f92672"&gt;=&lt;/span&gt; xmlData&lt;span style="color:#f92672"&gt;.&lt;/span&gt;find(&lt;span style="color:#e6db74"&gt;&amp;#39;FromUserName&amp;#39;&lt;/span&gt;)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;text
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Content &lt;span style="color:#f92672"&gt;=&lt;/span&gt; xmlData&lt;span style="color:#f92672"&gt;.&lt;/span&gt;find(&lt;span style="color:#e6db74"&gt;&amp;#39;Content&amp;#39;&lt;/span&gt;)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;text
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; json &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;model&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;text-davinci-003&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;prompt&amp;#34;&lt;/span&gt;: Content&lt;span style="color:#f92672"&gt;.&lt;/span&gt;strip(),
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;max_tokens&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;4000&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;temperature&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; key &lt;span style="color:#f92672"&gt;=&lt;/span&gt; str(FromUserName &lt;span style="color:#f92672"&gt;+&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;:&amp;#39;&lt;/span&gt; &lt;span style="color:#f92672"&gt;+&lt;/span&gt; Content&lt;span style="color:#f92672"&gt;.&lt;/span&gt;strip())
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;question:&lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;key&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; reply &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;xml&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;ToUserName&amp;gt;&amp;lt;![CDATA[&lt;/span&gt;&lt;span style="color:#e6db74"&gt;%s&lt;/span&gt;&lt;span style="color:#e6db74"&gt;]]&amp;gt;&amp;lt;/ToUserName&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;FromUserName&amp;gt;&amp;lt;![CDATA[&lt;/span&gt;&lt;span style="color:#e6db74"&gt;%s&lt;/span&gt;&lt;span style="color:#e6db74"&gt;]]&amp;gt;&amp;lt;/FromUserName&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;CreateTime&amp;gt;&lt;/span&gt;&lt;span style="color:#e6db74"&gt;%s&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;lt;/CreateTime&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;MsgType&amp;gt;&amp;lt;![CDATA[text]]&amp;gt;&amp;lt;/MsgType&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;Content&amp;gt;&amp;lt;![CDATA[&lt;/span&gt;&lt;span style="color:#e6db74"&gt;%s&lt;/span&gt;&lt;span style="color:#e6db74"&gt;]]&amp;gt;&amp;lt;/Content&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;lt;/xml&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; answer &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;没听清，再说一遍&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; cache &lt;span style="color:#f92672"&gt;=&lt;/span&gt; r&lt;span style="color:#f92672"&gt;.&lt;/span&gt;get(key)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; cache:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; answer &lt;span style="color:#f92672"&gt;=&lt;/span&gt; cache&lt;span style="color:#f92672"&gt;.&lt;/span&gt;decode(&lt;span style="color:#e6db74"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r&lt;span style="color:#f92672"&gt;.&lt;/span&gt;delete(key)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;elif&lt;/span&gt; cache &lt;span style="color:#f92672"&gt;is&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;None&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r&lt;span style="color:#f92672"&gt;.&lt;/span&gt;set(key, &lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;, ex&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;60&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; text &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;try&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; res &lt;span style="color:#f92672"&gt;=&lt;/span&gt; requests&lt;span style="color:#f92672"&gt;.&lt;/span&gt;post(&lt;span style="color:#e6db74"&gt;&amp;#39;https://api.openai.com/v1/completions&amp;#39;&lt;/span&gt;, headers&lt;span style="color:#f92672"&gt;=&lt;/span&gt;headers, json&lt;span style="color:#f92672"&gt;=&lt;/span&gt;json)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;json()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; text &lt;span style="color:#f92672"&gt;=&lt;/span&gt; res[&lt;span style="color:#e6db74"&gt;&amp;#39;choices&amp;#39;&lt;/span&gt;][&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;][&lt;span style="color:#e6db74"&gt;&amp;#39;text&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;res = &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;res&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;except&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Exception&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; e:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;error:&lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;e&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r&lt;span style="color:#f92672"&gt;.&lt;/span&gt;set(key, &lt;span style="color:#66d9ef"&gt;None&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;555&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; t1 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; time&lt;span style="color:#f92672"&gt;.&lt;/span&gt;time()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; t1 &lt;span style="color:#f92672"&gt;-&lt;/span&gt; t0 &lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;4.5&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; r&lt;span style="color:#f92672"&gt;.&lt;/span&gt;set(key, text, ex&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;3600&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;555&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; answer &lt;span style="color:#f92672"&gt;=&lt;/span&gt; res[&lt;span style="color:#e6db74"&gt;&amp;#39;choices&amp;#39;&lt;/span&gt;][&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;][&lt;span style="color:#e6db74"&gt;&amp;#39;text&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;elif&lt;/span&gt; cache&lt;span style="color:#f92672"&gt;.&lt;/span&gt;decode(&lt;span style="color:#e6db74"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;) &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#39;sleep&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; time&lt;span style="color:#f92672"&gt;.&lt;/span&gt;sleep(&lt;span style="color:#ae81ff"&gt;4.5&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; answer &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;思考中...&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;\n&lt;/span&gt;&lt;span style="color:#e6db74"&gt;过会儿再对我说一遍[&lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;Content&lt;span style="color:#f92672"&gt;.&lt;/span&gt;strip()&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;]&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;success&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; response &lt;span style="color:#f92672"&gt;=&lt;/span&gt; make_response(reply &lt;span style="color:#f92672"&gt;%&lt;/span&gt; (FromUserName, ToUserName, str(int(time&lt;span style="color:#f92672"&gt;.&lt;/span&gt;time())), answer&lt;span style="color:#f92672"&gt;.&lt;/span&gt;strip()))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; response&lt;span style="color:#f92672"&gt;.&lt;/span&gt;content_type &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;application/xml&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; response
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;success&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; __name__ &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; app&lt;span style="color:#f92672"&gt;.&lt;/span&gt;run(port &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;9999&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;appid&lt;/strong&gt;：必填
+&lt;strong&gt;token&lt;/strong&gt;：必填
+&lt;strong&gt;encodingAESKey&lt;/strong&gt;：选填（当需要加密时必填）&lt;/p&gt;</description></item><item><title>Debian-Ubuntu使用Nexus的私有镜像源</title><link>https://blog.imcaoxuan.cn/posts/2022-10-27-use-a-private-nexus-apt-mirror-on-debian-and-ubuntu/</link><pubDate>Thu, 27 Oct 2022 15:24:18 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-10-27-use-a-private-nexus-apt-mirror-on-debian-and-ubuntu/</guid><description>&lt;!--markdown--&gt;# Debian/Ubuntu使用Nexus的私有镜像源
 &lt;h3 id="以debian11为例"&gt;以Debian11为例&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -209,9 +319,9 @@
 &lt;p&gt;更新apt&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;apt update
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>mybatis xml的字符串表达式中不要包含in（因为in是关键字，除此之外，还有很多关键字都不要放在这里）！！！</title><link>https://blog.imcaoxuan.cn/posts/77/</link><pubDate>Tue, 11 Oct 2022 15:09:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/77/</guid><description>&lt;!--markdown--&gt;假如你要使用**if**语句判断**Query**类的成员变量**in**是否为**null**，你可能会这么写： ```&lt;if test="null != query.in"&gt;&lt;/if&gt;```（错误）
+&lt;/ol&gt;</description></item><item><title>mybatis xml的字符串表达式中不要包含in（因为in是关键字，除此之外，还有很多关键字都不要放在这里）！！！</title><link>https://blog.imcaoxuan.cn/posts/2022-10-11-avoid-reserved-keywords-in-mybatis-xml-expressions/</link><pubDate>Tue, 11 Oct 2022 15:09:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-10-11-avoid-reserved-keywords-in-mybatis-xml-expressions/</guid><description>&lt;!--markdown--&gt;假如你要使用**if**语句判断**Query**类的成员变量**in**是否为**null**，你可能会这么写： ```&lt;if test="null != query.in"&gt;&lt;/if&gt;```（错误）
 &lt;hr&gt;
-&lt;p&gt;正确的做法是把&lt;strong&gt;Query&lt;/strong&gt;类的&lt;strong&gt;in&lt;/strong&gt;变量名改成其它名字，比如改成&lt;em&gt;contains&lt;/em&gt; &lt;code&gt;&amp;lt;if test=&amp;quot;null != query.contains&amp;quot;&amp;gt;&amp;lt;/if&amp;gt;&lt;/code&gt;（正确）&lt;/p&gt;</description></item><item><title>群晖Gitlab开启https</title><link>https://blog.imcaoxuan.cn/posts/67/</link><pubDate>Fri, 07 Oct 2022 14:06:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/67/</guid><description>&lt;!--markdown--&gt;1.在套件中心停用Gitlab。
+&lt;p&gt;正确的做法是把&lt;strong&gt;Query&lt;/strong&gt;类的&lt;strong&gt;in&lt;/strong&gt;变量名改成其它名字，比如改成&lt;em&gt;contains&lt;/em&gt; &lt;code&gt;&amp;lt;if test=&amp;quot;null != query.contains&amp;quot;&amp;gt;&amp;lt;/if&amp;gt;&lt;/code&gt;（正确）&lt;/p&gt;</description></item><item><title>群晖Gitlab开启https</title><link>https://blog.imcaoxuan.cn/posts/2022-10-07-enable-https-for-gitlab-on-synology/</link><pubDate>Fri, 07 Oct 2022 14:06:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-10-07-enable-https-for-gitlab-on-synology/</guid><description>&lt;!--markdown--&gt;1.在套件中心停用Gitlab。
 &lt;p&gt;&lt;img alt="屏幕截图 2022-10-07 225900.png" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2022/10/3894530090.png"&gt;
 2.打开docker，右键编辑synology_gitlab，在端口设置中将本地端口44333（自定义）， 映射到容器端口443，然后在环境变量中新增&lt;code&gt;GITLAB_HTTPS true&lt;/code&gt;
 &lt;img alt="屏幕截图 2022-10-07 230252.png" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2022/10/15891951.png"&gt;
@@ -220,7 +330,57 @@
 但是当使用克隆代码时，仍然是使用原来的端口。
 3.在环境变量中修改GITLAB_PORT的值为44333（自定义）
 &lt;img alt="屏幕截图 2022-10-07 230713.png" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2022/10/4025217960.png"&gt;
-然后重启Gitlab就完事了。&lt;/p&gt;</description></item><item><title>MySQL8.0主从同步</title><link>https://blog.imcaoxuan.cn/posts/66/</link><pubDate>Fri, 09 Sep 2022 09:51:29 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/66/</guid><description>&lt;!--markdown--&gt;# MySQL8.0主从同步
+然后重启Gitlab就完事了。&lt;/p&gt;</description></item><item><title>Debian/Ubuntu使用Nexus的私有镜像源</title><link>https://blog.imcaoxuan.cn/posts/2022-09-23-use-a-private-nexus-apt-mirror-on-debian-and-ubuntu/</link><pubDate>Fri, 23 Sep 2022 15:15:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-09-23-use-a-private-nexus-apt-mirror-on-debian-and-ubuntu/</guid><description>&lt;h1 id="debianubuntu使用nexus的私有镜像源"&gt;Debian/Ubuntu使用Nexus的私有镜像源&lt;/h1&gt;
+&lt;h3 id="以debian11为例"&gt;以Debian11为例&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;修改**/etc/apt/source.list**&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;vim /etc/apt/source.list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# deb cdrom:[Debian GNU/Linux 11.2.0 _Bullseye_ - Official amd64 DVD Binary-1 20211218-11:13]/ bullseye contrib main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#deb cdrom:[Debian GNU/Linux 11.2.0 _Bullseye_ - Official amd64 DVD Binary-1 20211218-11:13]/ bullseye contrib main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb http://deb.debian.org/debian/ bullseye main
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb-src http://deb.debian.org/debian/ bullseye main
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb http://security.debian.org/debian-security bullseye-security main contrib
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb-src http://security.debian.org/debian-security bullseye-security main contrib
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# bullseye-updates, to get updates before a point release is made;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# see https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb http://deb.debian.org/debian/ bullseye-updates main contrib
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb-src http://deb.debian.org/debian/ bullseye-updates main contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;把其中的地址替换成你的私有镜像源地址&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# deb cdrom:[Debian GNU/Linux 11.2.0 _Bullseye_ - Official amd64 DVD Binary-1 20211218-11:13]/ bullseye contrib main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#deb cdrom:[Debian GNU/Linux 11.2.0 _Bullseye_ - Official amd64 DVD Binary-1 20211218-11:13]/ bullseye contrib main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb http://mirror.nfools.org:8081/repository/debian-bullseye/ bullseye main
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb-src http://mirror.nfools.org:8081/repository/debian-bullseye/ bullseye main
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb http://security.debian.org/debian-security bullseye-security main contrib
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb-src http://security.debian.org/debian-security bullseye-security main contrib
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# bullseye-updates, to get updates before a point release is made;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# see https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb http://deb.debian.org/debian/ bullseye-updates main contrib
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;deb-src http://deb.debian.org/debian/ bullseye-updates main contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;保存并退出&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建**/etc/apt/auth.conf.d/nexus.local.intranet.conf**（如果你的仓库允许匿名访问，则忽略这一步）&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;vim /etc/apt/auth.conf.d/nexus.local.intranet.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;配置你的镜像源地址、登录名和密码&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;machine http://mirror.nfools.org:8081/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;login public
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;password public
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;保存并退出&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更新apt&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;apt update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>MySQL8.0主从同步</title><link>https://blog.imcaoxuan.cn/posts/2022-09-09-configure-mysql-8-0-primary-replica-replication/</link><pubDate>Fri, 09 Sep 2022 09:51:29 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-09-09-configure-mysql-8-0-primary-replica-replication/</guid><description>&lt;!--markdown--&gt;# MySQL8.0主从同步
 &lt;p&gt;参考：https://www.cnblogs.com/kylinlin/p/5258719.html&lt;/p&gt;
 &lt;h2 id="一-主数据库"&gt;一、 主数据库&lt;/h2&gt;
 &lt;h4 id="1修改配置文件"&gt;1.修改配置文件&lt;/h4&gt;
@@ -267,16 +427,16 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;-&amp;gt;&lt;/span&gt; MASTER_LOG_POS&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;156&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="3运行"&gt;3.运行&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-mysql" data-lang="mysql"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;mysql &lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; start slave;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Spring Cloud Alibaba 2021.0.1.0 踩坑记录</title><link>https://blog.imcaoxuan.cn/posts/59/</link><pubDate>Sun, 04 Sep 2022 15:27:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/59/</guid><description>&lt;!--markdown--&gt;我打算把**Spring Cloud Alibaba**升级个版本，看看有什么新特性，结果升级后死活启动不了。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Spring Cloud Alibaba 2021.0.1.0 踩坑记录</title><link>https://blog.imcaoxuan.cn/posts/2022-09-04-troubleshooting-spring-cloud-alibaba-2021-0-1-0/</link><pubDate>Sun, 04 Sep 2022 15:27:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-09-04-troubleshooting-spring-cloud-alibaba-2021-0-1-0/</guid><description>&lt;!--markdown--&gt;我打算把**Spring Cloud Alibaba**升级个版本，看看有什么新特性，结果升级后死活启动不了。
 &lt;hr&gt;
 &lt;p&gt;事情是这样的，跟往常一样，我先去&lt;a href="https://spring.io/"&gt;&lt;em&gt;Spring官网&lt;/em&gt;&lt;/a&gt;找到&lt;a href="https://spring.io/projects/spring-cloud-alibaba#learn"&gt;&lt;em&gt;Spring Cloud Alibaba&lt;/em&gt;&lt;/a&gt;的最新的版本号，如下图所示：&lt;/p&gt;
 &lt;p&gt;可以看到最新的版本是&lt;strong&gt;2021.0.1.0&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="spring cloud alibaba.png" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2022/09/1984588022.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="https://blog-images.imcaoxuan.cn/2026/10/23/1792754209.png" loading="lazy" src="https://blog-images.imcaoxuan.cn/2026/10/23/1792754209.png"&gt;&lt;/p&gt;
 &lt;p&gt;我默默记下这个版本号&amp;hellip;
 然后点了右上角的那只&lt;a href="https://cn.bing.com/search?q=%E7%AB%A0%E9%B1%BC%E7%8C%AB"&gt;&lt;strong&gt;章鱼猫&lt;/strong&gt;&lt;/a&gt;
 在&lt;strong&gt;Wiki&lt;/strong&gt;里找到&lt;strong&gt;版本说明&lt;/strong&gt;，如下图所示：
 现在我知道了Spring Cloud Alibaba Version、Spring Cloud Version和Spring Boot Version三者版本对应关系了！&lt;/p&gt;
-&lt;p&gt;&lt;img alt="edition.png" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2022/09/3307185131.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="https://blog-images.imcaoxuan.cn/2026/10/23/1792754187.png" loading="lazy" src="https://blog-images.imcaoxuan.cn/2026/10/23/1792754187.png"&gt;&lt;/p&gt;
 &lt;p&gt;我再次回到&lt;a href="https://spring.io/projects/spring-cloud-alibaba#learn"&gt;Spring官网&lt;/a&gt;，然后打开&lt;a href="https://spring-cloud-alibaba-group.github.io/github-pages/2021/en-us/index.html"&gt;Spring Cloud Alibaba的Reference&lt;/a&gt;，根据文档，一顿操作。
 其实大概就只有三步：&lt;/p&gt;
 &lt;ol&gt;
@@ -468,7 +628,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;报错提示&lt;strong&gt;ClassNotFoundException&lt;/strong&gt;，很明显，这种问题一般都是出现在缺少依赖的情况下的，但是&lt;strong&gt;jackson&lt;/strong&gt;这个东西，我之前一直用的好好的啊！怎么突然就说找不到了呢？
 我在密密麻麻的POM文件中看了半天，也没发现什么问题。我也没做多大改动啊，怎么就跑不起来了呢？
 我想了下，问题会不会是依赖冲突导致的？
-我去看看&lt;strong&gt;External Libraries&lt;/strong&gt;：&lt;/p&gt;</description></item><item><title>Gradle 添加私有仓库</title><link>https://blog.imcaoxuan.cn/posts/57/</link><pubDate>Thu, 25 Aug 2022 09:18:33 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/57/</guid><description>&lt;!--markdown--&gt;# Gradle 添加私有仓库
+我去看看&lt;strong&gt;External Libraries&lt;/strong&gt;：&lt;/p&gt;</description></item><item><title>Gradle 添加私有仓库</title><link>https://blog.imcaoxuan.cn/posts/2022-08-25-configure-a-private-nexus-repository-for-gradle/</link><pubDate>Thu, 25 Aug 2022 17:19:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-08-25-configure-a-private-nexus-repository-for-gradle/</guid><description>&lt;h1 id="gradle-添加私有仓库"&gt;Gradle 添加私有仓库&lt;/h1&gt;
 &lt;h2 id="以android-studio为例"&gt;以Android Studio为例&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -512,12 +672,56 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3.Sync now!&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>转发：解决warning: LF will be replaced by CRLF in方法</title><link>https://blog.imcaoxuan.cn/posts/56/</link><pubDate>Sun, 21 Aug 2022 07:03:21 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/56/</guid><description>&lt;!--markdown--&gt;[https://blog.csdn.net/chenxijie1985/article/details/107759826][1]
+&lt;/ol&gt;</description></item><item><title>Gradle 添加私有仓库</title><link>https://blog.imcaoxuan.cn/posts/2022-08-25-add-a-private-maven-repository-to-gradle/</link><pubDate>Thu, 25 Aug 2022 09:18:33 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-08-25-add-a-private-maven-repository-to-gradle/</guid><description>&lt;!--markdown--&gt;# Gradle 添加私有仓库
+&lt;h2 id="以android-studio为例"&gt;以Android Studio为例&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在&lt;code&gt;build.gradle&lt;/code&gt;(Project)中添加maven{&amp;hellip;}，如下所示：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;buildscript &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; repositories &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; maven &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; url &lt;span style="color:#e6db74"&gt;&amp;#34;https://maven.imcaoxuan.cn:8443/repository/public/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; credentials &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; username &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;public&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; password &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;public&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; google&lt;span style="color:#f92672"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; mavenCentral&lt;span style="color:#f92672"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; dependencies &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; classpath &lt;span style="color:#e6db74"&gt;&amp;#39;com.android.tools.build:gradle:7.0.4&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// NOTE: Do not place your application dependencies here; they belong
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// in the individual module build.gradle files
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在&lt;code&gt;settings.gradle&lt;/code&gt;(Project)中添加maven{&amp;hellip;}，如下所示：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;dependencyResolutionManagement &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; repositoriesMode&lt;span style="color:#f92672"&gt;.&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;set&lt;/span&gt;&lt;span style="color:#f92672"&gt;(&lt;/span&gt;RepositoriesMode&lt;span style="color:#f92672"&gt;.&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;FAIL_ON_PROJECT_REPOS&lt;/span&gt;&lt;span style="color:#f92672"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; repositories &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; maven &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; url &lt;span style="color:#e6db74"&gt;&amp;#34;https://maven.imcaoxuan.cn:8443/repository/public/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; credentials &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; username &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;public&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; password &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;public&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; google&lt;span style="color:#f92672"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; mavenCentral&lt;span style="color:#f92672"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; jcenter&lt;span style="color:#f92672"&gt;()&lt;/span&gt; &lt;span style="color:#75715e"&gt;// Warning: this repository is going to shut down soon
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3.Sync now!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>转发：解决warning: LF will be replaced by CRLF in方法</title><link>https://blog.imcaoxuan.cn/posts/2022-08-21-fix-git-lf-will-be-replaced-by-crlf-warnings/</link><pubDate>Sun, 21 Aug 2022 07:03:21 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-08-21-fix-git-lf-will-be-replaced-by-crlf-warnings/</guid><description>&lt;!--markdown--&gt;[https://blog.csdn.net/chenxijie1985/article/details/107759826][1]
 &lt;p&gt;在windows下add代码时一直提示：warning: LF will be replaced by CRLF in，虽然没多大影响，但是看得不爽。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;解决办法：&lt;/p&gt;
 &lt;p&gt;git config &amp;ndash;global core.autocrlf false&lt;/p&gt;
-&lt;/blockquote&gt;</description></item><item><title>转发：Ubuntu 创建 RAID1 阵列</title><link>https://blog.imcaoxuan.cn/posts/54/</link><pubDate>Sun, 24 Jul 2022 15:55:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/54/</guid><description>&lt;!--markdown--&gt;转发：https://www.jianshu.com/p/3e6d5da2db81
+&lt;/blockquote&gt;</description></item><item><title>转发：Ubuntu 创建 RAID1 阵列</title><link>https://blog.imcaoxuan.cn/posts/2022-07-24-create-a-raid1-array-on-ubuntu/</link><pubDate>Sun, 24 Jul 2022 15:55:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-07-24-create-a-raid1-array-on-ubuntu/</guid><description>&lt;!--markdown--&gt;转发：https://www.jianshu.com/p/3e6d5da2db81
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 列出所有磁盘信息&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ sudo fdisk -l
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
@@ -538,17 +742,17 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Continue creating array? y
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;mdadm: Defaulting to version 1.2 metadata
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;mdadm: array /dev/md0 started.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>JAVA_HOME</title><link>https://blog.imcaoxuan.cn/posts/52/</link><pubDate>Sun, 17 Jul 2022 13:36:33 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/52/</guid><description>&lt;!--markdown--&gt;# JAVA_HOME
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>JAVA_HOME</title><link>https://blog.imcaoxuan.cn/posts/2022-07-17-java-home/</link><pubDate>Sun, 17 Jul 2022 13:36:33 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-07-17-java-home/</guid><description>&lt;!--markdown--&gt;# JAVA_HOME
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#JAVA_HOME&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;export JAVA_HOME&lt;span style="color:#f92672"&gt;=&lt;/span&gt;/opt/jdk1.8.0_201
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;export CLASSPATH&lt;span style="color:#f92672"&gt;=&lt;/span&gt;.:&lt;span style="color:#e6db74"&gt;${&lt;/span&gt;JAVA_HOME&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;/lib:&lt;span style="color:#e6db74"&gt;${&lt;/span&gt;JRE_HOME&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;/lib
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;export PATH&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;${&lt;/span&gt;JAVA_HOME&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;/bin:$PATH
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>定时任务</title><link>https://blog.imcaoxuan.cn/posts/51/</link><pubDate>Sun, 17 Jul 2022 13:34:49 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/51/</guid><description>&lt;!--markdown--&gt;# 定时任务
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>定时任务</title><link>https://blog.imcaoxuan.cn/posts/2022-07-17-schedule-tasks-with-cron/</link><pubDate>Sun, 17 Jul 2022 13:34:49 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-07-17-schedule-tasks-with-cron/</guid><description>&lt;!--markdown--&gt;# 定时任务
 &lt;p&gt;example:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;*/1 * * * * /home/admin/traffic.sh echo &amp;gt; /home/admin/log/traffic.log
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Ubuntu修改代理</title><link>https://blog.imcaoxuan.cn/posts/50/</link><pubDate>Sun, 17 Jul 2022 13:33:27 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/50/</guid><description>&lt;!--markdown--&gt;# Ubuntu修改代理
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Ubuntu修改代理</title><link>https://blog.imcaoxuan.cn/posts/2022-07-17-configure-an-apt-proxy-on-ubuntu/</link><pubDate>Sun, 17 Jul 2022 13:33:27 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-07-17-configure-an-apt-proxy-on-ubuntu/</guid><description>&lt;!--markdown--&gt;# Ubuntu修改代理
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;vim /etc/apt/apt.conf.d/90curtin-aptproxy
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后&amp;hellip;&lt;/p&gt;</description></item><item><title>整合代码：TOTP+Hex+Base32</title><link>https://blog.imcaoxuan.cn/posts/49/</link><pubDate>Tue, 22 Mar 2022 11:54:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/49/</guid><description>&lt;!--markdown--&gt;代码引用：org.apache.commons.codec.binary.Base32, org.apache.commons.codec.binary.Hex, TOTP(Johan Rydell, PortWise, Inc)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后&amp;hellip;&lt;/p&gt;</description></item><item><title>整合代码：TOTP+Hex+Base32</title><link>https://blog.imcaoxuan.cn/posts/2022-03-22-implement-totp-with-hex-and-base32-in-java/</link><pubDate>Tue, 22 Mar 2022 11:54:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-03-22-implement-totp-with-hex-and-base32-in-java/</guid><description>&lt;!--markdown--&gt;代码引用：org.apache.commons.codec.binary.Base32, org.apache.commons.codec.binary.Hex, TOTP(Johan Rydell, PortWise, Inc)
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; javax.crypto.Mac;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; javax.crypto.spec.SecretKeySpec;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; java.lang.reflect.UndeclaredThrowableException;
@@ -1054,7 +1258,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>转发：nginx反向代理websocket返回403</title><link>https://blog.imcaoxuan.cn/posts/48/</link><pubDate>Wed, 09 Feb 2022 14:06:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/48/</guid><description>&lt;!--markdown--&gt;原文：[Solution of nginx reverse proxy websocket response 403][1]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>转发：nginx反向代理websocket返回403</title><link>https://blog.imcaoxuan.cn/posts/2022-02-09-fix-websocket-403-errors-behind-an-nginx-reverse-proxy/</link><pubDate>Wed, 09 Feb 2022 14:06:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-02-09-fix-websocket-403-errors-behind-an-nginx-reverse-proxy/</guid><description>&lt;!--markdown--&gt;原文：[Solution of nginx reverse proxy websocket response 403][1]
 &lt;blockquote&gt;
 &lt;p&gt;The log accessed through nginx has the following entry:&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1083,13 +1287,13 @@ proxy_set_header Origin &amp;quot;&amp;quot;;
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;在我的access.log中并未发现关于“Origin”的信息，但是按照此方案修改配置文件后却可以解决问题。
-[1]: &lt;a href="https://developpaper.com/solution-of-nginx-reverse-proxy-websocket-response-403/"&gt;https://developpaper.com/solution-of-nginx-reverse-proxy-websocket-response-403/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>复习：StringBuilder和String拼接字符串效率差距真大</title><link>https://blog.imcaoxuan.cn/posts/45/</link><pubDate>Sun, 23 Jan 2022 07:20:22 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/45/</guid><description>&lt;!--markdown--&gt;今天在解析一个5M的文本文件时，耗时两分多钟，找了半天才发现原因是使用String += s的方式拼接字符串导致的。
+[1]: &lt;a href="https://developpaper.com/solution-of-nginx-reverse-proxy-websocket-response-403/"&gt;https://developpaper.com/solution-of-nginx-reverse-proxy-websocket-response-403/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>复习：StringBuilder和String拼接字符串效率差距真大</title><link>https://blog.imcaoxuan.cn/posts/2022-01-23-stringbuilder-vs-string-concatenation-performance-in-java/</link><pubDate>Sun, 23 Jan 2022 07:20:22 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-01-23-stringbuilder-vs-string-concatenation-performance-in-java/</guid><description>&lt;!--markdown--&gt;今天在解析一个5M的文本文件时，耗时两分多钟，找了半天才发现原因是使用String += s的方式拼接字符串导致的。
 &lt;p&gt;&lt;img alt="123-1.png" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2022/01/2676324333.png"&gt;&lt;/p&gt;
 &lt;p&gt;换成StringBuilder后速度提升了4个数量级！&lt;img alt="123-2.png" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2022/01/534282834.png"&gt;&lt;/p&gt;
 &lt;p&gt;至于原因，大家应该都懂，我就不再赘述了。
 &lt;strong&gt;基础不能忘！！！&lt;/strong&gt;
 &lt;strong&gt;基础不能忘！！！&lt;/strong&gt;
-&lt;strong&gt;基础不能忘！！！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>转载：一个好用的zip库zip4j</title><link>https://blog.imcaoxuan.cn/posts/44/</link><pubDate>Sun, 23 Jan 2022 03:47:58 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/44/</guid><description>&lt;!--markdown--&gt;原文：[what-is-a-good-java-library-to-zip-unzip-files][1]
+&lt;strong&gt;基础不能忘！！！&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>转载：一个好用的zip库zip4j</title><link>https://blog.imcaoxuan.cn/posts/2022-01-23-extract-password-protected-zip-archives-with-zip4j/</link><pubDate>Sun, 23 Jan 2022 03:47:58 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-01-23-extract-password-protected-zip-archives-with-zip4j/</guid><description>&lt;!--markdown--&gt;原文：[what-is-a-good-java-library-to-zip-unzip-files][1]
 &lt;p&gt;Demo：@user2003470&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; net.lingala.zip4j.exception.ZipException;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; net.lingala.zip4j.core.ZipFile;
@@ -1116,8 +1320,8 @@ proxy_set_header Origin &amp;quot;&amp;quot;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;zip4j&lt;span style="color:#f92672"&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;version&amp;gt;&lt;/span&gt;1.3.2&lt;span style="color:#f92672"&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Ubuntu20.04中使用snap安装的docker如何修改registry-mirrors</title><link>https://blog.imcaoxuan.cn/posts/41/</link><pubDate>Sun, 16 Jan 2022 14:24:43 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/41/</guid><description>&lt;!--markdown--&gt;如图：![cs.png][1]
-&lt;p&gt;通过 &lt;code&gt;systemctl status snap.docker.dockerd.service&lt;/code&gt; 命令，可以找到daemon.json的路径&lt;/p&gt;</description></item><item><title>Ubuntu20.04中使用snap安装的docker如何开启远程访问？</title><link>https://blog.imcaoxuan.cn/posts/37/</link><pubDate>Sun, 16 Jan 2022 13:32:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/37/</guid><description>&lt;!--markdown--&gt;转发：https://superuser.com/questions/1431826/expose-api-over-tcp-of-snap-installed-docker-on-ubuntu-18-04
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Ubuntu20.04中使用snap安装的docker如何修改registry-mirrors</title><link>https://blog.imcaoxuan.cn/posts/2022-01-16-configure-registry-mirrors-for-snap-docker-on-ubuntu-20-04/</link><pubDate>Sun, 16 Jan 2022 14:24:43 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-01-16-configure-registry-mirrors-for-snap-docker-on-ubuntu-20-04/</guid><description>&lt;!--markdown--&gt;如图：![cs.png][1]
+&lt;p&gt;通过 &lt;code&gt;systemctl status snap.docker.dockerd.service&lt;/code&gt; 命令，可以找到daemon.json的路径&lt;/p&gt;</description></item><item><title>Ubuntu20.04中使用snap安装的docker如何开启远程访问？</title><link>https://blog.imcaoxuan.cn/posts/2022-01-16-enable-remote-access-for-snap-docker-on-ubuntu-20-04/</link><pubDate>Sun, 16 Jan 2022 13:32:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2022-01-16-enable-remote-access-for-snap-docker-on-ubuntu-20-04/</guid><description>&lt;!--markdown--&gt;转发：https://superuser.com/questions/1431826/expose-api-over-tcp-of-snap-installed-docker-on-ubuntu-18-04
 &lt;p&gt;@Rumdex&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;By running: &lt;code&gt;systemctl status snap.docker.dockerd.service&lt;/code&gt; I was able
@@ -1128,10 +1332,10 @@ had to add &lt;code&gt;-H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock&lt;/
 that line, so it ended up looking like:
 &lt;code&gt;ExecStart=/usr/bin/snap run docker.dockerd -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock&lt;/code&gt;
 Rebooted. Works.&lt;/p&gt;
-&lt;/blockquote&gt;</description></item><item><title>文件名中出现^M导致java.io.FileNotFoundException</title><link>https://blog.imcaoxuan.cn/posts/36/</link><pubDate>Tue, 16 Nov 2021 01:40:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/36/</guid><description>&lt;!--markdown--&gt;问题如图所示:
+&lt;/blockquote&gt;</description></item><item><title>文件名中出现^M导致java.io.FileNotFoundException</title><link>https://blog.imcaoxuan.cn/posts/2021-11-16-fix-java-filenotfoundexception-caused-by-carriage-returns-in-filenames/</link><pubDate>Tue, 16 Nov 2021 01:40:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-11-16-fix-java-filenotfoundexception-caused-by-carriage-returns-in-filenames/</guid><description>&lt;!--markdown--&gt;问题如图所示:
 &lt;p&gt;&lt;img alt="微信图片_20211116093924.jpg" loading="lazy" src="https://www.caoxuan.top/usr/uploads/2021/11/3340062974.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;解决方案：vi filename打开文件，执行 : set ff=unix 设置文件为unix，然后执行:wq，保存成unix格式
-参考：https://blog.csdn.net/ygy162/article/details/105364096/&lt;/p&gt;</description></item><item><title>用多个密钥解密同一个密文</title><link>https://blog.imcaoxuan.cn/posts/34/</link><pubDate>Tue, 21 Sep 2021 09:51:04 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/34/</guid><description>&lt;!--markdown--&gt;
+参考：https://blog.csdn.net/ygy162/article/details/105364096/&lt;/p&gt;</description></item><item><title>用多个密钥解密同一个密文</title><link>https://blog.imcaoxuan.cn/posts/2021-09-21-decrypt-the-same-message-with-multiple-keys-using-aes-and-rsa/</link><pubDate>Tue, 21 Sep 2021 09:51:04 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-09-21-decrypt-the-same-message-with-multiple-keys-using-aes-and-rsa/</guid><description>&lt;!--markdown--&gt;
 &lt;p&gt;思想借鉴：https://www.zhihu.com/question/266180268&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;从严格意义上来说， 这并不是某个加密算法，能够同时允许多个密钥解密。 而是对称加密和非对称加密算法配合，实现将数据加密分发给多个人，能够让不同人使用自己的密钥解密数据&lt;/p&gt;
@@ -1175,19 +1379,19 @@ Rebooted. Works.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; });
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>转发：mybatis 大坑之 useGeneratedKeys 返回值不是id，而是0跟1</title><link>https://blog.imcaoxuan.cn/posts/31/</link><pubDate>Sun, 22 Aug 2021 07:46:07 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/31/</guid><description>&lt;!--markdown--&gt;&gt; 打了断点一路追到底层，发现真tmd返回0跟1，后斜眼一看object的id改变了，妈的好神奇。
-&lt;p&gt;原文：&lt;a href="https://blog.csdn.net/a5601564/article/details/77945958/"&gt;https://blog.csdn.net/a5601564/article/details/77945958/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>转发：mybatis报错：Error evaluating expression</title><link>https://blog.imcaoxuan.cn/posts/30/</link><pubDate>Sat, 21 Aug 2021 15:45:54 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/30/</guid><description>&lt;!--markdown--&gt;解决方案：
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>转发：mybatis 大坑之 useGeneratedKeys 返回值不是id，而是0跟1</title><link>https://blog.imcaoxuan.cn/posts/2021-08-22-understanding-mybatis-usegeneratedkeys-and-generated-ids/</link><pubDate>Sun, 22 Aug 2021 07:46:07 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-08-22-understanding-mybatis-usegeneratedkeys-and-generated-ids/</guid><description>&lt;!--markdown--&gt;&gt; 打了断点一路追到底层，发现真tmd返回0跟1，后斜眼一看object的id改变了，妈的好神奇。
+&lt;p&gt;原文：&lt;a href="https://blog.csdn.net/a5601564/article/details/77945958/"&gt;https://blog.csdn.net/a5601564/article/details/77945958/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>转发：mybatis报错：Error evaluating expression</title><link>https://blog.imcaoxuan.cn/posts/2021-08-21-fix-mybatis-error-evaluating-expression/</link><pubDate>Sat, 21 Aug 2021 15:45:54 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-08-21-fix-mybatis-error-evaluating-expression/</guid><description>&lt;!--markdown--&gt;解决方案：
 &lt;blockquote&gt;
 &lt;p&gt;解决：if标签的test里面的表达式的and不能写成大写AND。（具体的原因本人没有详细探究过，估计是mybatis的语法不允许吧）&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;原文：&lt;a href="https://blog.csdn.net/csdnyq/article/details/106841550"&gt;mybatis报错：Error evaluating expression&lt;/a&gt;&lt;/p&gt;</description></item><item><title>转发：Android Bitmap压缩图像的正确方法(compress的误区)</title><link>https://blog.imcaoxuan.cn/posts/29/</link><pubDate>Sun, 15 Aug 2021 06:08:34 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/29/</guid><description>&lt;!--markdown--&gt;**摘要：**
+&lt;p&gt;原文：&lt;a href="https://blog.csdn.net/csdnyq/article/details/106841550"&gt;mybatis报错：Error evaluating expression&lt;/a&gt;&lt;/p&gt;</description></item><item><title>转发：Android Bitmap压缩图像的正确方法(compress的误区)</title><link>https://blog.imcaoxuan.cn/posts/2021-08-15-understanding-android-bitmap-compression-and-memory-usage/</link><pubDate>Sun, 15 Aug 2021 06:08:34 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-08-15-understanding-android-bitmap-compression-and-memory-usage/</guid><description>&lt;!--markdown--&gt;**摘要：**
 &lt;blockquote&gt;
 &lt;p&gt;Bitmap.compress方法确实可以压缩图片，但压缩的是存储大小，即你放到disk上的大小&lt;/p&gt;
 &lt;p&gt;我尝试过把品质设置为10，decode出来的Bitmap大小没变，但显示照片的质量非常差&lt;/p&gt;
 &lt;p&gt;BitmapFactory.decodeByteArray方法对压缩后的byte[]解码后，得到的Bitmap大小依然和未压缩过一样&lt;/p&gt;
 &lt;p&gt;如果你想要显示的Bitmap占用的内存少一点，还是需要去设置加载的像素长度和宽度（变成缩略图）&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;原文地址：&lt;/strong&gt;&lt;a href="https://blog.csdn.net/T3/article/details/79665077"&gt;https://blog.csdn.net/T3/article/details/79665077&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Linux下使用jps命令报错</title><link>https://blog.imcaoxuan.cn/posts/25/</link><pubDate>Sat, 14 Aug 2021 06:14:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/25/</guid><description>&lt;!--markdown--&gt;# 问题：Linux下使用jps命令报错java.lang.Error: Properties init: Could not determine current working directory.
+&lt;p&gt;&lt;strong&gt;原文地址：&lt;/strong&gt;&lt;a href="https://blog.csdn.net/T3/article/details/79665077"&gt;https://blog.csdn.net/T3/article/details/79665077&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Linux下使用jps命令报错</title><link>https://blog.imcaoxuan.cn/posts/2021-08-14-fix-jps-current-working-directory-error-on-linux/</link><pubDate>Sat, 14 Aug 2021 06:14:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-08-14-fix-jps-current-working-directory-error-on-linux/</guid><description>&lt;!--markdown--&gt;# 问题：Linux下使用jps命令报错java.lang.Error: Properties init: Could not determine current working directory.
 &lt;p&gt;![QQ截图20210814141543.png][1]&lt;/p&gt;
 &lt;h1 id="解决方案"&gt;解决方案&lt;/h1&gt;
 &lt;p&gt;![QQ截图20210814141703.png][2]&lt;/p&gt;
@@ -1199,11 +1403,11 @@ Rebooted. Works.&lt;/p&gt;
 &lt;p&gt;cd到根目录，再尝试使用jps，发现问题已解决
 [1]: &lt;a href="https://www.caoxuan.top/usr/uploads/2021/08/1556106767.png"&gt;https://www.caoxuan.top/usr/uploads/2021/08/1556106767.png&lt;/a&gt;
 [2]: &lt;a href="https://www.caoxuan.top/usr/uploads/2021/08/3988254530.png"&gt;https://www.caoxuan.top/usr/uploads/2021/08/3988254530.png&lt;/a&gt;
-[3]: &lt;a href="https://www.caoxuan.top/usr/uploads/2021/08/2498345376.png"&gt;https://www.caoxuan.top/usr/uploads/2021/08/2498345376.png&lt;/a&gt;&lt;/p&gt;</description></item><item><title>好久没写了，随便水一贴吧</title><link>https://blog.imcaoxuan.cn/posts/24/</link><pubDate>Tue, 20 Jul 2021 13:39:57 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/24/</guid><description>&lt;!--markdown--&gt;公元二〇二一年七月二十日星期二
+[3]: &lt;a href="https://www.caoxuan.top/usr/uploads/2021/08/2498345376.png"&gt;https://www.caoxuan.top/usr/uploads/2021/08/2498345376.png&lt;/a&gt;&lt;/p&gt;</description></item><item><title>好久没写了，随便水一贴吧</title><link>https://blog.imcaoxuan.cn/posts/2021-07-20-a-personal-update-after-a-long-break/</link><pubDate>Tue, 20 Jul 2021 13:39:57 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-07-20-a-personal-update-after-a-long-break/</guid><description>&lt;!--markdown--&gt;公元二〇二一年七月二十日星期二
 &lt;p&gt;六月十一
 辛丑年 牛
 乙未月 己巳日&lt;/p&gt;
-&lt;p&gt;2021/7/20&lt;/p&gt;</description></item><item><title>关于在Nginx中配置顶级域名与www域名之间跳转以及https和如何搭配CDN的综合解决方案</title><link>https://blog.imcaoxuan.cn/posts/22/</link><pubDate>Tue, 04 May 2021 13:08:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/22/</guid><description>&lt;!--markdown--&gt;# 关于在Nginx中配置顶级域名与www域名之间跳转以及https和如何搭配CDN的综合解决方案
+&lt;p&gt;2021/7/20&lt;/p&gt;</description></item><item><title>关于在Nginx中配置顶级域名与www域名之间跳转以及https和如何搭配CDN的综合解决方案</title><link>https://blog.imcaoxuan.cn/posts/2021-05-04-configure-nginx-domain-redirects-https-and-cdn/</link><pubDate>Tue, 04 May 2021 13:08:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-05-04-configure-nginx-domain-redirects-https-and-cdn/</guid><description>&lt;!--markdown--&gt;# 关于在Nginx中配置顶级域名与www域名之间跳转以及https和如何搭配CDN的综合解决方案
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1341,7 +1545,7 @@ Rebooted. Works.&lt;/p&gt;
 &lt;h3 id="应急解决方案保证可用性前提nginx配置与本方案的源站配置相同"&gt;应急解决方案（保证可用性；前提：Nginx配置与本方案的源站配置相同）&lt;/h3&gt;
 &lt;h4 id="ssl出现问题"&gt;SSL出现问题&lt;/h4&gt;
 &lt;h5 id="步骤一修改cdn的https配置"&gt;步骤一：修改CDN的HTTPS配置&lt;/h5&gt;
-&lt;p&gt;​ 关闭强制跳转&lt;/p&gt;</description></item><item><title>关于www和naked域名的重新向以及https的解决方案（以Nginx为例）</title><link>https://blog.imcaoxuan.cn/posts/20/</link><pubDate>Tue, 04 May 2021 10:55:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/20/</guid><description>&lt;!--markdown--&gt;以下是nginx的相关配置
+&lt;p&gt;​ 关闭强制跳转&lt;/p&gt;</description></item><item><title>关于www和naked域名的重新向以及https的解决方案（以Nginx为例）</title><link>https://blog.imcaoxuan.cn/posts/2021-05-04-configure-www-and-apex-domain-https-redirects-with-nginx/</link><pubDate>Tue, 04 May 2021 10:55:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-05-04-configure-www-and-apex-domain-https-redirects-with-nginx/</guid><description>&lt;!--markdown--&gt;以下是nginx的相关配置
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-nginx" data-lang="nginx"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#server1 http://example.com
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;server&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;listen&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;80&lt;/span&gt;;
@@ -1386,9 +1590,9 @@ Rebooted. Works.&lt;/p&gt;
 &lt;p&gt;Q：为什么要重定向多次？而不直接重定向到 &lt;a href="https://www.example.com"&gt;https://www.example.com&lt;/a&gt; ？&lt;/p&gt;
 &lt;p&gt;A：为了降低出错后的维护成本，当ssl出现问题时，只需修改一个server（server2）即可以http的方式访问，从而恢复正常工作。&lt;/p&gt;
 &lt;p&gt;Q：这样做对SEO有影响吗？&lt;/p&gt;
-&lt;p&gt;A：鄙人才疏学浅，请自行查阅资料了解。目前看来，使用Google可以搜索到本站的内容，但是某度却不行。&lt;/p&gt;</description></item><item><title>fastjson反序列化后缺失属性值</title><link>https://blog.imcaoxuan.cn/posts/17/</link><pubDate>Mon, 19 Apr 2021 15:09:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/17/</guid><description>&lt;!--markdown--&gt;**原因分析**：fastjson在反序列化时用的默认使用无参构造方法和getter与setter来构造对象，如果缺少无参构造方法，则会使用当前存在的构造方法（这个构造方法的参数可能不齐全）来构造对象。
-&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：如果使用了Lombok，就在相应的实体类上添加注解*@NoArgsConstructor*；否则就手动重写无参构造方法。&lt;/p&gt;</description></item><item><title>RecyclerView只显示一条数据</title><link>https://blog.imcaoxuan.cn/posts/16/</link><pubDate>Thu, 15 Apr 2021 08:26:10 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/16/</guid><description>&lt;!--markdown--&gt;![QQ截图20210415162531.png][1]
-&lt;p&gt;检查对应的item，将android:layout_height=&amp;ldquo;match_parent&amp;quot;改为android:layout_height=&amp;ldquo;wrap_content&amp;rdquo;。&lt;/p&gt;</description></item><item><title>简单实现负载均衡</title><link>https://blog.imcaoxuan.cn/posts/10/</link><pubDate>Sun, 21 Mar 2021 15:03:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/10/</guid><description>&lt;!--markdown--&gt;```java
+&lt;p&gt;A：鄙人才疏学浅，请自行查阅资料了解。目前看来，使用Google可以搜索到本站的内容，但是某度却不行。&lt;/p&gt;</description></item><item><title>fastjson反序列化后缺失属性值</title><link>https://blog.imcaoxuan.cn/posts/2021-04-19-fix-missing-property-values-after-fastjson-deserialization/</link><pubDate>Mon, 19 Apr 2021 15:09:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-04-19-fix-missing-property-values-after-fastjson-deserialization/</guid><description>&lt;!--markdown--&gt;**原因分析**：fastjson在反序列化时用的默认使用无参构造方法和getter与setter来构造对象，如果缺少无参构造方法，则会使用当前存在的构造方法（这个构造方法的参数可能不齐全）来构造对象。
+&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：如果使用了Lombok，就在相应的实体类上添加注解*@NoArgsConstructor*；否则就手动重写无参构造方法。&lt;/p&gt;</description></item><item><title>RecyclerView只显示一条数据</title><link>https://blog.imcaoxuan.cn/posts/2021-04-15-fix-recyclerview-showing-only-one-item/</link><pubDate>Thu, 15 Apr 2021 08:26:10 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-04-15-fix-recyclerview-showing-only-one-item/</guid><description>&lt;!--markdown--&gt;![QQ截图20210415162531.png][1]
+&lt;p&gt;检查对应的item，将android:layout_height=&amp;ldquo;match_parent&amp;quot;改为android:layout_height=&amp;ldquo;wrap_content&amp;rdquo;。&lt;/p&gt;</description></item><item><title>简单实现负载均衡</title><link>https://blog.imcaoxuan.cn/posts/2021-03-21-a-simple-load-balancing-implementation/</link><pubDate>Sun, 21 Mar 2021 15:03:00 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-03-21-a-simple-load-balancing-implementation/</guid><description>&lt;!--markdown--&gt;```java
 &lt;p&gt;package algorithm.loadbalance;&lt;/p&gt;
 &lt;p&gt;import com.alibaba.fastjson.JSON;&lt;/p&gt;
 &lt;p&gt;import java.util.*;&lt;/p&gt;
@@ -1620,8 +1824,8 @@ System.out.println(&amp;ldquo;current load &amp;quot; + serverList);
 }
 }&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>群晖 GitServer用户为空的解决办法</title><link>https://blog.imcaoxuan.cn/posts/9/</link><pubDate>Fri, 26 Feb 2021 08:07:10 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/9/</guid><description>&lt;!--markdown--&gt;参考https://chaolucky.com/blog/12/03-927.html
+&lt;/ul&gt;</description></item><item><title>群晖 GitServer用户为空的解决办法</title><link>https://blog.imcaoxuan.cn/posts/2021-02-26-fix-empty-user-list-in-synology-git-server/</link><pubDate>Fri, 26 Feb 2021 08:07:10 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2021-02-26-fix-empty-user-list-in-synology-git-server/</guid><description>&lt;!--markdown--&gt;参考https://chaolucky.com/blog/12/03-927.html
 &lt;p&gt;sudo cp /var/packages/Git/target/webapi/SYNO.Git.lib /var/packages/Git/target/webapi/SYNO.Git.lib.bak
 sudo vi /var/packages/Git/target/webapi/SYNO.Git.lib
 删掉appPriv 之后的SYNO.SDS.GIT.Instance
-保存退出&lt;/p&gt;</description></item><item><title>欢迎使用 Typecho</title><link>https://blog.imcaoxuan.cn/posts/1/</link><pubDate>Thu, 17 Dec 2020 15:40:52 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/1/</guid><description>&lt;!--markdown--&gt;如果您看到这篇文章,表示您的 blog 已经安装成功.</description></item></channel></rss>
+保存退出&lt;/p&gt;</description></item><item><title>欢迎使用 Typecho</title><link>https://blog.imcaoxuan.cn/posts/2020-12-17-welcome-to-typecho/</link><pubDate>Thu, 17 Dec 2020 15:40:52 +0000</pubDate><guid>https://blog.imcaoxuan.cn/posts/2020-12-17-welcome-to-typecho/</guid><description>&lt;!--markdown--&gt;如果您看到这篇文章,表示您的 blog 已经安装成功.</description></item></channel></rss>
