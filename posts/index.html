@@ -13,7 +13,15 @@ CA：已有的 CX-Homelab-CA Root CA 和 CX-Homelab-CA Intermediate CA。 证书
 基本流程如下：
 客户端访问 HTTPS 站点。 Nginx 请求客户端证书。 浏览器或系统选择客户端身份，并使用对应私钥完成 TLS 握手。 Nginx 验证客户端证书的有效性、证书链和用途。 验证通过后，服务器允许访问受保护的资源。 需要注意，客户端证书和服务器 CA 信任是两个不同的问题。安装客户端身份，并不意味着设备已经信任签发网站服务器证书的私有 CA。
 2. Mac：使用 CanoKey PIV 9A 2.1 当前方案 Mac 使用 CanoKey 的 PIV 9A 槽保存客户端身份。macOS 通过智能卡相关机制识别证书和私钥，浏览器在 TLS 握手时使用该身份。
-...</p></div><footer class=entry-footer><span title='2026-10-26 00:00:00 +0000 UTC'>October 26, 2026</span>&nbsp;·&nbsp;<span>3 min</span></footer><a class=entry-link aria-label="post link to Mac 与 iPhone 使用客户端证书访问 mTLS 网站" href=https://blog.caoxuan.top/posts/2026-10-26-mtls-practice/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>用 YubiKey 保护 Git：FIDO2 SSH 认证与提交签名</h2></header><div class=entry-content><p>Git 的仓库认证与提交签名是两个独立环节：前者决定能否拉取、推送代码，后者让接收者验证提交由哪把密钥签署。本文使用两对独立的 FIDO2 SSH 密钥，将这两个用途分开管理。
+...</p></div><footer class=entry-footer><span title='2026-10-26 00:00:00 +0000 UTC'>October 26, 2026</span>&nbsp;·&nbsp;<span>3 min</span></footer><a class=entry-link aria-label="post link to Mac 与 iPhone 使用客户端证书访问 mTLS 网站" href=https://blog.caoxuan.top/posts/2026-10-26-mtls-practice/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>macOS 与 iOS 使用客户端证书访问 mTLS 网站</h2></header><div class=entry-content><p>macOS 与 iOS 使用客户端证书访问 mTLS 网站 本文介绍如何在 macOS 和 iOS 设备上配置客户端证书，以访问启用双向 TLS（mTLS）的 HTTPS 网站。示例使用私有 CA、step-ca、Nginx、PKCS#12 和 PIV 智能卡。文中的域名、证书名称、文件名和 IP 地址均为示例，请替换为自己的实际值。
+1. mTLS 认证流程 普通 HTTPS 主要由客户端验证服务器证书；mTLS 还要求服务器验证客户端证书。
+基本流程：
+客户端访问 HTTPS 站点。 Nginx 在 TLS 握手期间请求客户端证书。 浏览器或系统选择客户端身份，并使用对应私钥完成签名。 Nginx 根据配置验证客户端证书、证书链和有效期。 验证通过后，连接进入 HTTP 层，由站点策略决定是否允许访问。 客户端身份和服务器 CA 信任是两个独立配置：
+客户端身份：客户端证书及与之匹配的私钥，用于向服务器证明身份。 服务器 CA 信任：客户端信任签发网站服务器证书的 CA，用于验证 HTTPS 服务器身份。 安装客户端证书不会自动让设备信任私有 CA。
+2. macOS：使用 PIV 硬件密钥 如果客户端私钥保存在支持 PIV 的硬件密钥中，可以让私钥留在硬件设备内，避免导出私钥文件。浏览器是否能使用该身份，取决于 macOS、智能卡中间件、密钥设备和浏览器的支持情况。
+一般检查步骤：
+插入 PIV 硬件密钥。 确认 macOS 能识别智能卡及其证书。 打开浏览器并访问 mTLS 网站。 如果浏览器请求客户端证书，选择对应的身份。 按提示输入 PIN 或完成硬件操作。 结合页面结果和服务器日志确认认证是否成功。 可用以下命令检查系统状态：
+...</p></div><footer class=entry-footer><span title='2026-10-26 00:00:00 +0000 UTC'>October 26, 2026</span>&nbsp;·&nbsp;<span>4 min</span></footer><a class=entry-link aria-label="post link to macOS 与 iOS 使用客户端证书访问 mTLS 网站" href=https://blog.caoxuan.top/posts/2026-10-26-mtls-client-cert-macos-ios/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>用 YubiKey 保护 Git：FIDO2 SSH 认证与提交签名</h2></header><div class=entry-content><p>Git 的仓库认证与提交签名是两个独立环节：前者决定能否拉取、推送代码，后者让接收者验证提交由哪把密钥签署。本文使用两对独立的 FIDO2 SSH 密钥，将这两个用途分开管理。
 Git 支持使用 SSH 密钥签署 Commit 和 Tag，因此只围绕 Git 开发时，可以直接使用 YubiKey 的 FIDO2 功能，无须额外部署 GnuPG。需要遵循 OpenPGP 验签流程的项目，则应按项目要求选择 GPG 签名。
 ...</p></div><footer class=entry-footer><span title='2026-10-25 00:00:00 +0800 +0800'>October 25, 2026</span>&nbsp;·&nbsp;<span>5 min</span></footer><a class=entry-link aria-label="post link to 用 YubiKey 保护 Git：FIDO2 SSH 认证与提交签名" href=https://blog.caoxuan.top/posts/yubikey-git-fido2-ssh-signing/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>OpenWrt IPv6 有地址却提示网络不可达：一次 mwan3 策略路由排查</h2></header><div class=entry-content><p>WAN6 已拿到 IPv6 地址，但在 OpenWrt 上 ping 公网 IPv6 时，立即返回：
 ping: sendto: Network unreachable 最后发现，现场存在一条与 mwan3 一致的带标记不可达规则。删除它后，IPv6 恢复。这个案例说明：看到了默认路由，也不代表实际流量一定会使用它。
@@ -58,20 +66,7 @@ docker login registry.example.com:5000 Ubuntu / Debian 宿主机全局信任 sud
 [UFW BLOCK] IN=eth0 OUT= SRC=192.0.2.20 DST=192.0.2.1 PROTO=TCP DPT=24461 SYN DPT=24461 只是一次运行时观察到的动态端口，不应该把它永久写死在 UFW 里。OUT= 为空，提示包正在进入本机的 INPUT 路径，而不只是穿过 FORWARD 路径。
 追踪 NAT 重定向 检查 sing-box 监听：
 sudo ss -lntup | grep sing-box 检查 nftables：
-...</p></div><footer class=entry-footer><span title='2026-10-23 00:00:00 +0000 UTC'>October 23, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to UFW 与 sing-box TUN auto_redirect 冲突：动态端口被拦截的排查" href=https://blog.caoxuan.top/posts/2026-10-23-troubleshooting-ufw-and-sing-box-tun-auto-redirect-conflicts/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>使用 CrowdSec 为 Debian 服务器实现恶意 IP 自动封禁</h2></header><div class=entry-content><p>使用 CrowdSec 为 Debian 服务器实现恶意 IP 自动封禁 公网服务器每天都会遇到各种自动化扫描。
-即使没有主动公开服务地址，SSH 端口也经常会收到针对 root、admin、test 等用户名的登录尝试。Web 服务则可能遭遇针对 .env、wp-admin、phpinfo.php 等路径的探测。
-这些请求大多来自自动化扫描程序。虽然不一定构成实际入侵，但会产生大量无意义的日志，同时增加服务暴露面。
-单纯依靠防火墙静态规则，难以根据攻击行为动态调整封禁名单。
-因此，我选择尝试 CrowdSec，通过服务器日志识别恶意行为，再联动 nftables 自动封禁攻击来源。
-本文记录在 Debian 12 上部署 CrowdSec 的过程，以及它如何判断一个 IP 是否应该被封禁。
-一、CrowdSec 是什么？ CrowdSec 是一个开源的入侵检测与安全响应系统。
-它通过分析 SSH、Web Server 等服务产生的日志，检测暴力破解、漏洞扫描、恶意爬虫等行为。
-与传统的静态 IP 黑名单不同，CrowdSec 主要根据行为特征决定是否封禁，并且可以利用社区威胁情报。
-CrowdSec 的工作可以分为两部分：
-Security Engine：读取日志，识别攻击，生成封禁决策。 Remediation Component（Bouncer）：执行封禁决策，例如修改防火墙规则。 两者相互独立。
-也就是说，仅安装 CrowdSec Security Engine，并不会自动阻止网络连接。
-1.1 工作流程 SSH / Caddy / Nginx | v Application Logs | v CrowdSec Parser | v Detection Scenarios | v Security Alerts | v Decision Profiles | v Local API | v Firewall Bouncer | v nftables | v Block IP CrowdSec 将日志分析与防火墙执行解耦，意味着它既可以在单台服务器上使用，也能通过中心 API 向多台服务器下发封禁决策。
-...</p></div><footer class=entry-footer><span title='2026-10-19 19:00:00 +0800 +0800'>October 19, 2026</span>&nbsp;·&nbsp;<span>6 min</span></footer><a class=entry-link aria-label="post link to 使用 CrowdSec 为 Debian 服务器实现恶意 IP 自动封禁" href=https://blog.caoxuan.top/posts/2026-10-19-automatically-banning-malicious-ips-on-a-debian-server-with-crowdsec/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://blog.caoxuan.top/posts/page/2/>&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>caoxuan.top</span> ·
+...</p></div><footer class=entry-footer><span title='2026-10-23 00:00:00 +0000 UTC'>October 23, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to UFW 与 sing-box TUN auto_redirect 冲突：动态端口被拦截的排查" href=https://blog.caoxuan.top/posts/2026-10-23-troubleshooting-ufw-and-sing-box-tun-auto-redirect-conflicts/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://blog.caoxuan.top/posts/page/2/>&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>caoxuan.top</span> ·
 <span>Powered by
 <a href="https://gohugo.io/?utm_source=papermod" rel=noopener target=_blank>Hugo</a> &
 <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
