@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>IOS on CX's Blog</title><link>https://blog.caoxuan.top/ja/tags/ios/</link><description>Recent content in IOS on CX's Blog</description><generator>Hugo</generator><language>ja-jp</language><copyright>caoxuan.top</copyright><lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.caoxuan.top/ja/tags/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>Mac 与 iPhone 使用客户端证书访问 mTLS 网站</title><link>https://blog.caoxuan.top/ja/posts/2026-10-26-mtls-practice/</link><pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate><guid>https://blog.caoxuan.top/ja/posts/2026-10-26-mtls-practice/</guid><description>&lt;h1 id="mac-と-iphone-でクライアント証明書を使用して-mtls-サイトにアクセスする"&gt;Mac と iPhone でクライアント証明書を使用して mTLS サイトにアクセスする&lt;/h1&gt;
+&lt;p&gt;本稿では、macOS と iPhone でクライアント証明書を使用して内部ネットワークの mTLS サイトにアクセスする方法を記録する。内容には CanoKey PIV、&lt;code&gt;step-ca&lt;/code&gt;、Nginx、および iOS システムへの証明書のインストールが含まれる。&lt;/p&gt;
+&lt;h2 id="1-環境と認証フロー"&gt;1. 環境と認証フロー&lt;/h2&gt;
+&lt;p&gt;現在の環境は以下のとおりである。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CA：既存の &lt;code&gt;CX-Homelab-CA Root CA&lt;/code&gt; と &lt;code&gt;CX-Homelab-CA Intermediate CA&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;証明書の発行：&lt;code&gt;step-ca&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;Web サーバー：Nginx 1.25.0。&lt;/li&gt;
+&lt;li&gt;テストサイト：&lt;code&gt;https://www.home.arpa&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;Mac クライアント：CanoKey PIV 9A。&lt;/li&gt;
+&lt;li&gt;iPhone クライアント：PKCS#12 ファイルを介してクライアント証明書と秘密鍵をインポート。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;mTLS と通常の HTTPS の違いは、サーバーがクライアント証明書を検証し、クライアントもサーバー証明書を検証する必要がある点である。クライアント証明書には対応する秘密鍵が含まれている必要があり、&lt;code&gt;.crt&lt;/code&gt; ファイルだけをインストールしても、通常はクライアント認証を完了できない。&lt;/p&gt;
+&lt;p&gt;基本フロー如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;クライアントが HTTPS サイトにアクセスする。&lt;/li&gt;
+&lt;li&gt;Nginx がクライアント証明書を要求する。&lt;/li&gt;
+&lt;li&gt;ブラウザーまたはシステムがクライアント ID を選択し、対応する秘密鍵を使用して TLS ハンドシェイクを完了する。&lt;/li&gt;
+&lt;li&gt;Nginx がクライアント証明書の有効性、証明書チェーン、用途を検証する。&lt;/li&gt;
+&lt;li&gt;検証に成功すると、サーバーは保護されたリソースへのアクセスを許可する。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;需要注意すべき点として、クライアント証明書とサーバー CA の信頼は別々の問題である。クライアント ID をインストールしただけでは、デバイスがウェブサイトサーバー証明書の発行元であるプライベート CA を信頼できる状態になるわけではない。&lt;/p&gt;
+&lt;h2 id="2-maccanokey-piv-9a-の使用"&gt;2. Mac：CanoKey PIV 9A の使用&lt;/h2&gt;
+&lt;h3 id="21-現在の構成"&gt;2.1 現在の構成&lt;/h3&gt;
+&lt;p&gt;Mac では CanoKey の PIV 9A スロットにクライアント ID を保存している。macOS はスマートカード関連の仕組みを通じて証明書と秘密鍵を認識し、ブラウザーは TLS ハンドシェイク時にその ID を使用する。&lt;/p&gt;</description></item></channel></rss>
